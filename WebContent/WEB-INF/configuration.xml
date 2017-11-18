@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>    
+<!DOCTYPE configuration      
+    PUBLIC "-//mybatis.org//DTD Config 3.0//EN"      
+    "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- 指明在user这个表中所包含常用sql方法，test/mapper/User.xml是一个指明java方法和sql语法联系的xml文件 -->
+	<mappers>
+		<mapper resource="test/mapper/User.xml" />
+	</mappers>
+</configuration>   
